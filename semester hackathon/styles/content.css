@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    width: 1320px;
+}
+aside{
+    width: 320px;
+    float: left;
+
+}
+main{
+    width: 1000px;
+    float: right;
+    
+
+}
+footer{
+    clear: both;
+    background-image: linear-gradient(deeppink, darkblue);
+    padding: 20px;
+
+}
+header{
+    background-image: linear-gradient(deeppink, darkblue);
+    padding: 20px;
+}
+header h1{
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+    
+}
+
+header img{
+    float: left;
+    height:100px;
+    width: 150px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  li a:hover {
+    background-color: darkgreen;
+  }
+  aside a{
+    padding: 35px;
+    padding-left: 100px;
+    
+    font-family: 'Poppins', sans-serif;
+
+  }
+  footer p{
+    text-align: center;
+    color: whitesmoke;
+}
+main h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: darkblue;
+
+}
+aside h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+#poetrymain p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    text-indent: 50px;
+}
